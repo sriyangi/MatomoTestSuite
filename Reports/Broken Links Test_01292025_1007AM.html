@@ -1,0 +1,464 @@
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ <title></title>
+ <link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@c439bdbc7bade3d85af3b90e9e69c30ebc87445f/commons/img/logo.png">
+ <link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@c439bdbc7bade3d85af3b90e9e69c30ebc87445f/commons/img/logo.png">
+ <link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@78fa5a2421587b8228150e93142e5ba97178e85b/spark/css/spark-style.css" rel="stylesheet" />
+ <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+ <script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@78fa5a2421587b8228150e93142e5ba97178e85b/spark/js/jsontree.js"></script>
+ <style></style>
+</head>
+<body class="spa  standard">
+ <div class="app">
+  <div class="layout">
+   <div class="header navbar">
+ <div class="vheader">
+  <div class="nav-logo">
+   <a href="#">
+	 <div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@c43b89d03a7c43dae8bb8f0f078bad1997af6b3b/commons/img/logo.png')"></div>
+   </a>
+  </div>
+  <ul class="nav-left">
+   <li class="search-box">
+	<a class="search-toggle" href="#"><i class="search-icon fa fa-search"></i><i class="search-icon-close fa fa-close"></i></a>
+   </li>
+   <li class="search-input">
+    <input id="search-tests" class="form-control" type="text" placeholder="Search...">
+   </li>
+  </ul>
+  <ul class="nav-right">
+   <li class="m-r-10"><a href="#"><span class="badge badge-primary"></span></a></li>
+   <li class="m-r-10">
+    <a href="#"><span class="badge badge-primary">1/29/2025 10:07:55 AM</span></a>
+   </li>
+  </ul>
+ </div>
+</div>
+   <div class="side-nav">
+ <div class="side-nav-inner">
+  <ul class="side-nav-menu">
+   <li class="nav-item dropdown" onclick="toggleView('test-view')">
+    <a id="nav-test" class="dropdown-toggle" href="#">
+     <span class="ico"><i class="fa fa-list"></i></span>
+    </a>
+   </li>
+   <li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+    <a id="nav-dashboard" class="dropdown-toggle" href="#">
+     <span class="ico"><i class="fa fa-bar-chart"></i></span>
+    </a>
+   </li>
+  </ul>
+ </div>
+</div>
+
+   <div class="vcontainer">
+    <div class="main-content">
+     
+
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+      <ul class="tools pull-left">
+        <li><a href="#"><span class="font-size-14">Tests</span></a></li>
+      </ul>
+      <ul class="tools text-right">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+          <ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+ <a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>             <div class="dropdown-divider"></div>
+            <a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item" status="pass" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Broken Links Test</p>
+            <p class="text-sm">
+              <span>10:08:05 AM</span> / <span>32195.29 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">Broken Links Test</h5>
+                  <span class='badge badge-success'>1/29/2025 10:08:05 AM</span>
+                  <span class='badge badge-danger'>1/29/2025 10:08:37 AM</span>
+                  <span class='badge badge-default'>32195.29 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Jan 29, 2025 10:08:37</td>
+        <td>
+Test steps finished for test case BrokenLinksTest        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Jan 29, 2025 10:08:37</td>
+        <td>
+Test ended with Pass        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Jan 29, 2025 10:08:37</td>
+        <td>
+Valid link: https://matomo.org/#content (Status Code: OK)<br>
+Valid link: https://matomo.org/ (Status Code: OK)<br>
+Valid link: https://matomo.org/ (Status Code: OK)<br>
+Valid link: https://matomo.org/100-data-ownership/ (Status Code: OK)<br>
+Valid link: https://matomo.org/privacy/ (Status Code: OK)<br>
+Valid link: https://matomo.org/product-features/ (Status Code: OK)<br>
+Valid link: https://matomo.org/free-software/ (Status Code: OK)<br>
+Valid link: https://matomo.org/flexibility/ (Status Code: OK)<br>
+Valid link: https://matomo.org/no-data-sampling/ (Status Code: OK)<br>
+Valid link: https://matomo.org/gdpr-analytics/ (Status Code: OK)<br>
+Valid link: https://matomo.org/google-analytics-alternative/ (Status Code: OK)<br>
+Valid link: https://matomo.org/feature-overview/ (Status Code: OK)<br>
+Valid link: https://matomo.org/intranet-analytics/ (Status Code: OK)<br>
+Valid link: https://matomo.org/cookie-consent-banners/ (Status Code: OK)<br>
+Valid link: https://matomo.org/tracking-personal-data-with-matomo/ (Status Code: OK)<br>
+Valid link: https://matomo.org/multi-attribution/ (Status Code: OK)<br>
+Valid link: https://matomo.org/no-data-limitations-with-matomo/ (Status Code: OK)<br>
+Valid link: https://matomo.org/log-analytics/ (Status Code: OK)<br>
+Valid link: https://matomo.org/matomo-cloud/ (Status Code: OK)<br>
+Valid link: https://matomo.org/matomo-on-premise/ (Status Code: OK)<br>
+Valid link: https://matomo.org/what-is-on-premise/ (Status Code: OK)<br>
+Valid link: https://matomo.org/download/ (Status Code: OK)<br>
+Valid link: https://plugins.matomo.org/ (Status Code: OK)<br>
+Valid link: https://matomo.org/support-plans/ (Status Code: OK)<br>
+Valid link: https://matomo.org/pricing/ (Status Code: OK)<br>
+Valid link: https://matomo.org/pricing/ (Status Code: OK)<br>
+Valid link: https://matomo.org/contact-sales/ (Status Code: OK)<br>
+Valid link: https://matomo.org/help/ (Status Code: OK)<br>
+Valid link: https://matomo.org/blog/ (Status Code: OK)<br>
+Valid link: https://matomo.org/resources/ (Status Code: OK)<br>
+Valid link: https://matomo.org/masterclass/ (Status Code: OK)<br>
+Valid link: https://matomo.org/case-studies/ (Status Code: OK)<br>
+Valid link: https://matomo.org/integrate/ (Status Code: OK)<br>
+Valid link: https://matomo.org/contact/ (Status Code: OK)<br>
+Valid link: https://matomo.org/features/ (Status Code: OK)<br>
+Valid link: https://matomo.org/get-involved/ (Status Code: OK)<br>
+Valid link: https://matomo.org/login (Status Code: OK)<br>
+Valid link: https://matomo.org/help/?header (Status Code: OK)<br>
+Valid link: https://matomo.org/start-free-analytics-trial/ (Status Code: OK)<br>
+Valid link: https://matomo.org/start-free-analytics-trial/ (Status Code: OK)<br>
+Valid link: https://matomo.org/matomo-on-premise/ (Status Code: OK)<br>
+Valid link: https://matomo.org/start-free-analytics-trial/?above-fold (Status Code: OK)<br>
+Valid link: https://matomo.org/matomo-on-premise/?above-fold (Status Code: OK)<br>
+Valid link: https://matomo.org/start-free-analytics-trial/ (Status Code: OK)<br>
+Valid link: https://matomo.org/start-free-analytics-trial/?step1-hp (Status Code: OK)<br>
+Valid link: https://matomo.org/start-free-analytics-trial/ (Status Code: OK)<br>
+Forbidden link: https://www.capterra.com/p/182627/Matomo-Analytics/ (Status Code: Forbidden)<br>
+Forbidden link: https://www.softwareadvice.com/bi/matomo-profile/reviews/ (Status Code: Forbidden)<br>
+Forbidden link: https://www.getapp.com.au/software/2053481/matomo (Status Code: Forbidden)<br>
+Valid link: https://matomo.org/google-owns-your-data/ (Status Code: OK)<br>
+Valid link: https://matomo.org/gdpr-analytics/ (Status Code: OK)<br>
+Valid link: https://matomo.org/faq/new-to-piwik/is-matomo-analytics-ccpa-compliant/ (Status Code: OK)<br>
+Valid link: https://matomo.org/start-free-analytics-trial/ (Status Code: OK)<br>
+Valid link: https://matomo.org/guide/installation-maintenance/import-google-analytics/ (Status Code: OK)<br>
+Valid link: https://matomo.org/guide/installation-maintenance/import-google-analytics/ (Status Code: OK)<br>
+Valid link: https://matomo.org/guide/installation-maintenance/import-google-analytics/ (Status Code: OK)<br>
+Valid link: https://matomo.org/guide/installation-maintenance/import-google-analytics/ (Status Code: OK)<br>
+Valid link: https://matomo.org/tracking-personal-data-with-matomo/ (Status Code: OK)<br>
+Valid link: https://matomo.org/tracking-personal-data-with-matomo/ (Status Code: OK)<br>
+Valid link: https://matomo.org/tracking-personal-data-with-matomo/ (Status Code: OK)<br>
+Valid link: https://matomo.org/tracking-personal-data-with-matomo/ (Status Code: OK)<br>
+Valid link: https://matomo.org/no-data-sampling/ (Status Code: OK)<br>
+Valid link: https://matomo.org/no-data-sampling/ (Status Code: OK)<br>
+Valid link: https://matomo.org/no-data-sampling/ (Status Code: OK)<br>
+Valid link: https://matomo.org/no-data-sampling/ (Status Code: OK)<br>
+Valid link: https://matomo.org/free-software/ (Status Code: OK)<br>
+Valid link: https://matomo.org/free-software/ (Status Code: OK)<br>
+Valid link: https://matomo.org/free-software/ (Status Code: OK)<br>
+Valid link: https://matomo.org/free-software/ (Status Code: OK)<br>
+Valid link: https://matomo.org/no-data-limitations-with-matomo/ (Status Code: OK)<br>
+Valid link: https://matomo.org/no-data-limitations-with-matomo/ (Status Code: OK)<br>
+Valid link: https://matomo.org/no-data-limitations-with-matomo/ (Status Code: OK)<br>
+Valid link: https://matomo.org/no-data-limitations-with-matomo/ (Status Code: OK)<br>
+Valid link: https://matomo.org/product-features/ (Status Code: OK)<br>
+Valid link: https://matomo.org/product-features/ (Status Code: OK)<br>
+Valid link: https://matomo.org/product-features/ (Status Code: OK)<br>
+Valid link: https://matomo.org/product-features/ (Status Code: OK)<br>
+Valid link: https://matomo.org/flexibility/ (Status Code: OK)<br>
+Valid link: https://matomo.org/flexibility/ (Status Code: OK)<br>
+Valid link: https://matomo.org/flexibility/ (Status Code: OK)<br>
+Valid link: https://matomo.org/flexibility/ (Status Code: OK)<br>
+Valid link: https://matomo.org/support-plans/ (Status Code: OK)<br>
+Valid link: https://matomo.org/support-plans/ (Status Code: OK)<br>
+Valid link: https://matomo.org/support-plans/ (Status Code: OK)<br>
+Valid link: https://matomo.org/support-plans/ (Status Code: OK)<br>
+Valid link: https://matomo.org/start-free-analytics-trial/ (Status Code: OK)<br>
+Valid link: https://matomo.org/testimonials/ (Status Code: OK)<br>
+Valid link: https://matomo.org/start-free-analytics-trial/ (Status Code: OK)<br>
+Valid link: https://matomo.org/about/ (Status Code: OK)<br>
+Valid link: https://matomo.org/history/ (Status Code: OK)<br>
+Valid link: https://matomo.org/team/ (Status Code: OK)<br>
+Valid link: https://matomo.org/jobs/ (Status Code: OK)<br>
+Valid link: https://matomo.org/contact/ (Status Code: OK)<br>
+Valid link: https://matomo.org/partner-programme/ (Status Code: OK)<br>
+Valid link: https://matomo.org/help/?footer (Status Code: OK)<br>
+Valid link: https://developer.matomo.org/?footer (Status Code: OK)<br>
+Valid link: https://matomo.org/support/?footer (Status Code: OK)<br>
+Valid link: https://matomo.org/contact-sales/ (Status Code: OK)<br>
+Valid link: https://matomo.org/access-matomo-bigquery-export-feature/ (Status Code: OK)<br>
+Valid link: https://matomo.org/guide/tag-manager/getting-started-with-tag-manager/?footer (Status Code: OK)<br>
+Valid link: https://matomo.org/blog/2019/10/matomo-analytics-for-wordpress/?footer (Status Code: OK)<br>
+Valid link: https://matomo.org/faq/tracking-campaigns-url-builder/?footer (Status Code: OK)<br>
+Valid link: https://matomo.org/integrate/?footer (Status Code: OK)<br>
+Valid link: https://matomo.org/free-software/?footer (Status Code: OK)<br>
+Valid link: https://matomo.org/download/?footer (Status Code: OK)<br>
+Valid link: https://matomo.org/changelog/?footer (Status Code: OK)<br>
+Valid link: https://github.com/matomo-org/matomo/issues/?footer (Status Code: OK)<br>
+Valid link: https://github.com/matomo-org/?footer (Status Code: OK)<br>
+Valid link: https://matomo.org/resources/matomo-feedback-panel/ (Status Code: OK)<br>
+Valid link: https://matomo.org/privacy-policy/cookies/ (Status Code: OK)<br>
+Valid link: https://matomo.org/100-data-ownership/ (Status Code: OK)<br>
+Valid link: https://matomo.org/gdpr-analytics/ (Status Code: OK)<br>
+Valid link: https://matomo.org/security/ (Status Code: OK)<br>
+Valid link: https://matomo.org/matomo-cloud-privacy-policy/ (Status Code: OK)<br>
+Valid link: https://matomo.org/privacy-policy/ (Status Code: OK)<br>
+Valid link: https://matomo.org/blog/ (Status Code: OK)<br>
+Valid link: https://matomo.org/case-studies/ (Status Code: OK)<br>
+Valid link: https://matomo.org/newsletter/ (Status Code: OK)<br>
+Valid link: https://matomo.org/resources/ (Status Code: OK)<br>
+Valid link: https://matomo.org/masterclass/ (Status Code: OK)<br>
+Valid link: https://matomo.org/press/ (Status Code: OK)<br>
+Valid link: https://matomo.org/media/ (Status Code: OK)<br>
+Valid link: https://matomo.org/gdpr-timeline/ (Status Code: OK)<br>
+Valid link: https://matomo.org/blog/2023/08/how-to-check-website-traffic/ (Status Code: OK)<br>
+Valid link: https://matomo.org/matomo-vs-google-analytics-comparison/ (Status Code: OK)<br>
+Valid link: https://matomo.org/amplitude-vs-matomo/ (Status Code: OK)<br>
+Valid link: https://matomo.org/adobe-analytics-vs-google-analytics-vs-matomo/ (Status Code: OK)<br>
+Valid link: https://matomo.org/piwik-pro-vs-matomo/ (Status Code: OK)<br>
+Valid link: https://matomo.org/firebase-vs-matomo-features-pricing-and-key-differences/ (Status Code: OK)<br>
+Valid link: https://matomo.org/plausible-vs-matomo/ (Status Code: OK)<br>
+Valid link: https://matomo.org/fathom-vs-matomo/ (Status Code: OK)<br>
+Valid link: https://matomo.org/hotjar-alternative/ (Status Code: OK)<br>
+Valid link: https://matomo.org/blog/2020/04/matomo-vs-wp-statistics/ (Status Code: OK)<br>
+Valid link: https://matomo.org/blog/2023/08/top-web-analytics-tools/ (Status Code: OK)<br>
+Valid link: https://matomo.org/banking/ (Status Code: OK)<br>
+Valid link: https://matomo.org/enterprise/ (Status Code: OK)<br>
+Valid link: https://matomo.org/financial-institutions/ (Status Code: OK)<br>
+Valid link: https://matomo.org/fintech/ (Status Code: OK)<br>
+Valid link: https://www.facebook.com/Matomo.org/ (Status Code: OK)<br>
+Valid link: https://twitter.com/matomo_org (Status Code: OK)<br>
+Valid link: https://www.linkedin.com/groups/867857/ (Status Code: OK)<br>
+Valid link: https://github.com/matomo-org/matomo (Status Code: OK)<br>
+Valid link: https://www.youtube.com/c/MatomoAnalytics/videos (Status Code: OK)<br>
+Valid link: https://mastodon.social/@Matomo (Status Code: OK)<br>
+Valid link: https://matomo.org/# (Status Code: OK)<br>
+        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="2"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Broken Links Test For Images</p>
+            <p class="text-sm">
+              <span>10:08:37 AM</span> / <span>490.27 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">Broken Links Test For Images</h5>
+                  <span class='badge badge-success'>1/29/2025 10:08:37 AM</span>
+                  <span class='badge badge-danger'>1/29/2025 10:08:38 AM</span>
+                  <span class='badge badge-default'>490.27 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Jan 29, 2025 10:08:38</td>
+        <td>
+Test steps finished for test case BrokenLinksTestForImages        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Jan 29, 2025 10:08:38</td>
+        <td>
+Test ended with Pass        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Jan 29, 2025 10:08:38</td>
+        <td>
+Valid link: https://m-img.org/spai/w_170+q_lossless+ret_img+to_webp/matomo.org/wp-content/uploads/2018/10/matomo-logo-final-1-340x50.png (Status Code: OK)<br>
+Valid link: https://m-img.org/spai/w_95+q_lossless+ret_img+to_webp/matomo.org/wp-content/uploads/2022/03/CNIL-Logo.png (Status Code: OK)<br>
+Valid link: https://m-img.org/spai/w_95+q_lossless+ret_img+to_webp/matomo.org/wp-content/uploads/2018/10/united-nations-logo-english.x70014-1.png (Status Code: OK)<br>
+Valid link: https://m-img.org/spai/ret_img/matomo.org/wp-content/uploads/2022/02/Blue.svg (Status Code: OK)<br>
+Valid link: https://m-img.org/spai/w_86+q_lossless+ret_img+to_webp/matomo.org/wp-content/uploads/2018/10/4705b700092987f70bb825c1277043e5-Amnesty-logo-1.jpeg (Status Code: OK)<br>
+Valid link: https://m-img.org/spai/w_78+q_lossless+ret_img+to_webp/matomo.org/wp-content/uploads/2022/03/Logo-noyb_cmyk.png (Status Code: OK)<br>
+Valid link: https://m-img.org/spai/w_127+q_lossless+ret_img+to_webp/matomo.org/wp-content/uploads/2018/10/European_Commission.svg-1.png (Status Code: OK)<br>
+        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="test-content scrollable">
+    <div class="test-content-tools">
+      <ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+    </div>
+    <div class="test-content-detail"><div class="detail-body"></div></div>
+  </div>
+</div>
+
+     
+
+<div class="container-fluid p-4 view dashboard-view">
+  <div class="row">
+    <div class="col-md-3">
+      <div class="card"><div class="card-body">
+          <p class="m-b-0">Started</p>
+          <h3>1/29/2025 10:07:55 AM</h3>
+      </div></div>
+    </div>
+    <div class="col-md-3">
+      <div class="card"><div class="card-body">
+          <p class="m-b-0">Ended</p>
+          <h3>1/29/2025 10:08:38 AM</h3>
+      </div></div>
+    </div>
+    <div class="col-md-3">
+      <div class="card"><div class="card-body">
+          <p class="m-b-0 text-pass">Tests Passed</p>
+          <h3>2</h3>
+      </div></div>
+    </div>
+    <div class="col-md-3">
+      <div class="card"><div class="card-body">
+          <p class="m-b-0 text-fail">Tests Failed</p>
+          <h3>0</h3>
+      </div></div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-6">
+      <div class="card">
+        <div class="card-header">
+          <h6 class="card-title">Tests</h6>
+        </div>
+        <div class="card-body">
+          <div class="">
+            <canvas id='parent-analysis' width='115' height='90'></canvas>
+          </div>
+        </div>
+        <div class="card-footer">
+          <div><small data-tooltip='1%'>
+            <b>2</b> tests passed
+            </small>
+          </div>
+          <div>
+            <small data-tooltip='0%'><b>0</b> tests failed, 
+            <b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+            </small>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="card">
+        <div class="card-header">
+          <h6 class="card-title">Log events</h6>
+        </div>
+        <div class="card-body">
+          <div class="">
+            <canvas id='events-analysis' width='115' height='90'></canvas>
+          </div>
+        </div>
+        <div class="card-footer">
+          <div><small data-tooltip='1%'><b>6</b> events passed</small></div>
+          <div>
+            <small data-tooltip='0%'><b>0</b> events failed, 
+            <b data-tooltip='%'>0</b> others
+            </small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row"><div class="col-md-12">
+    <div class="card"><div class="card-header"><p>Timeline</p></div>
+      <div class="card-body pt-0"><div>
+        <canvas id="timeline" height="120"></canvas>
+      </div></div>
+    </div>
+  </div></div>
+  <script>
+	var timeline = { "Broken Links Test":32195.2854,"Broken Links Test For Images":490.2655 };
+  </script>
+  <div class="row">
+  </div>
+</div>
+<script>
+  var statusGroup = {
+    parentCount: 2,
+    childCount: 0,
+    grandChildCount: 0,
+    eventsCount: 6,
+
+passParent:2,failParent:0,warningParent:0,skipParent:0,    
+passChild:0,failChild:0,warningChild:0,skipChild:0,infoChild:0,    
+passGrandChild:0,failGrandChild:0,warningGrandChild:0,skipGrandChild:0,infoGrandChild:0,    
+passEvents:6,failEvents:0,warningEvents:0,skipEvents:0,infoEvents:0,  };
+</script>
+
+    </div>
+   </div>
+  </div>
+ </div>
+ <script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@c439bdbc7bade3d85af3b90e9e69c30ebc87445f/spark/js/spark-script.js"></script>
+<script type='text/javascript'></script>
+</body>
+</html>
